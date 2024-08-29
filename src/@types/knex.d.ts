@@ -6,6 +6,8 @@ declare module "knex/types/tables" {
       id: string;
       title: string;
       amount: number;
+      session_id: string;
+      type: "credit" | "debit";
     };
   }
 }
